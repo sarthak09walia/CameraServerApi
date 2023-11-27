@@ -1,0 +1,5 @@
+in power shell 
+Start-Process cmd -ArgumentList "/c waitress-serve --listen=*:5000 app:app > waitress_log.txt 2>&1" -NoNewWindow
+
+in cmd
+start waitress-serve --listen=*:5000 app:app > waitress_log.txt 2>&1
